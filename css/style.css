@@ -1,0 +1,778 @@
+html, body {
+  height : 100%; 
+}
+
+@media (max-width:768px) 
+{
+  .large{border:none;}
+  .entete{background-image:url('../css/img/fond_kraft.png');}
+  h1
+  {
+    font-size:26px;
+  }
+  p
+  {
+   font-size: 12px;
+  }
+  
+}
+
+.entete
+{
+background-image:url('../img/fond/garbage_double.jpg');
+background-color:#556b4a;
+ height:380px;
+ background-position:top center;
+overflow:hidden;
+padding:0px;
+margin:0px;
+}
+
+.entete_common
+{
+ background-image:url('../img/fond/garbage_double.jpg');
+ height:52px;
+ background-position:center center;
+
+}
+
+.top-menu
+{
+  background-color:rgba(0, 0, 0, 0.65);
+  height:52px;
+  position:absolute;
+  top:0px;
+  width:100%;
+  z-index:555;
+}
+
+
+.menu-content
+{
+ vertical-align:middle;
+ height:52px; 
+ color:#ffffff;
+}
+
+
+.large
+{
+  border:solid 5px #ffffff;
+  height:170px; 
+  background-position:center center;
+  background-size: cover;
+  vertical-align:middle;
+}
+
+.large2
+{
+  border:solid 5px #ffffff;
+  min-height:170px; 
+  background-position:center center;
+  background-size: cover;
+  vertical-align:middle;
+}
+
+
+
+.recherche
+{
+  position:relative;
+  top : 10px;
+  z-index:600; 
+  color:#ffffff;
+}
+
+.marge-neg-10
+{
+  margin-top:-10px;
+}
+.marge-neg-0
+{
+  margin-top:0px;
+}
+.marge-plus-10
+{
+  margin-top:7px;
+}
+.subtext
+{
+  position:relative;
+  top:45%;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
+}
+
+.text_blanc
+{
+   color:#ffffff; 
+}
+.text_blanc:hover
+{
+ color:#CCCCCC; 
+}
+
+.social
+{
+ z-index:0; 
+}
+
+/*permet a la suggestion de jquery d etre par dessus tous les div*/
+/* c est en important car jquery ecrase par dessus sinon */
+.ui-menu 
+{
+  z-index:9999999999 !important;
+  
+} 
+
+.piedepage
+{
+ color:#ffffff;
+ font-size:16px;
+ letter-spacing:4px;
+ margin-top:10px;
+}
+
+.pdp2
+{
+  background-color:#d6c29b; 
+  background-image:url('../css/img/fond_kraft.png');
+  height:39px; 
+  border-top:solid 2px black; 
+  border-bottom:solid 2px black; 
+}
+
+.pdp2-img
+{
+  position:relative;
+ top:-2px; 
+}
+
+.pdp1
+{
+ color:#FFFFFF;
+ background-color:#b8ae9b; 
+}
+
+.pdp1 a, .piedepage a
+{
+ color:#FFFFFF; 
+}
+
+.pdp1 a:hover
+{
+ color:#FF0000; 
+ text-decoration:none;
+}
+
+.piedepage a:hover
+{
+ color:#CCCCCC; 
+ text-decoration:none;
+}
+
+
+.submenu
+{
+  margin-top:10px;
+  color:#ffffff;
+  font-size:14px;
+  
+}
+
+#toggle 
+{
+  position :absolute;
+  width: 70%;
+  min-width:250px;
+  height: 100%;
+  background-color:rgba(0,0,0,0.7);
+  display:none;
+  z-index:500000;
+  color:#ffffff;
+  background-image:url('../css/img/fond_kraft.png');
+  background-repeat:repeat;
+  overflow:auto;
+}
+  
+#full 
+{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-color:rgba(255,255,255,1);
+  overflow:hidden;
+  display:none;
+  z-index:500000;
+  margin:0px;
+}
+
+#full2 
+{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-color:rgba(255,255,255,0.9);
+  overflow:hidden;
+  display:none;
+  z-index:500;
+  margin:0px;
+}
+
+
+/*****************************/
+/*    White popup content    */
+/*****************************/
+
+#whiteback
+{
+  position:absolute;
+  top:-50px;
+  width:100%;
+  height:110%;
+  background-color:rgba(255,255,255,0.9);
+  display:none;
+  z-index:500000;
+}
+
+.windowcontent
+{
+  position:fixed;
+  left:0px;
+  right:0px;
+  margin-left:auto;
+  margin-right:auto;
+  width:640px;
+  height:380px;
+  display:none;
+  top:15%;
+  z-index:500001;
+  padding:5px;
+  background-color:rgba(255,255,255,1);
+  border:1px solid #999999;
+  border-radius:7px;
+}
+
+#fermer
+{
+  position:fixed;
+  top:7%;
+  right:10%;
+  text-align:center;
+  cursor:pointer;
+}
+
+#fermer:hover
+{
+  color:#359d02;
+}
+
+.grey-font-popup
+{
+ color:#999999; 
+}
+/*****************************/
+/*  END White popup content  */
+/*****************************/
+
+
+.huge-glyphicon
+{
+ font-size:3em; 
+}
+
+.small-cap
+{
+ font-size:0.8em;
+text-transform:capitalize; 
+}
+
+.separation
+{
+ border-bottom:solid 1px #999999;
+  margin-left:20px;
+  margin-right:20px;
+  padding-bottom:20px;
+  padding-top:10px;
+  height:30px;
+  color:#000000; 
+  font-size:18px;
+  font-weight:bold;
+}
+
+.top-menu-xs
+{
+ height:1%;
+ min-height:5px;
+}
+
+.menu-itm
+{
+  margin-left:0px;
+  margin-right:0px;
+  padding-top:15px;
+  padding-bottom:15px;
+  height:18px;
+  color:#000000; 
+  font-size:15px;
+  font-weight:bold;
+}
+
+.itm-black a
+{
+ color:#000000; 
+}
+
+.itm-black a:hover
+{
+ color:#FF0000; 
+}
+
+.ico_menu_mob a
+{
+  color:#FFFFFF;
+}
+
+.contact-permanent
+{
+ position:fixed;
+ top:80%;
+ right:-134px;
+ width:180px;
+ color:#ffffff;
+ font-weight:bold;
+ z-index:500;
+ background-color:#359d02;
+ padding-top:10px;
+ padding-bottom:10px;  
+ padding-left:13px;
+ padding-right:10px;
+  -webkit-transition: right 0.5s; /* Safari */
+  transition: right 0.5s;
+}
+
+.contact-permanent a
+{
+ color:#FFFFFF; 
+}
+
+.contact-permanent a:hover
+{
+ color:#CCCCCC; 
+}
+
+.contact-permanent:hover
+{
+ right:0px; 
+}
+
+a.dropdown-toggle
+{
+ color:#FFFFFF; 
+}
+
+a.dropdown-toggle:hover
+{
+ color:#FF0000; 
+ text-decoration:none
+}
+
+.dropdown-menu
+{
+right:100px !important;
+left:100px;
+min-width:200px;
+margin-top:-1px;
+}
+
+.hover
+{
+ cursor:pointer; 
+}
+
+.fakelink:hover
+{
+  color:#FF1234;
+}
+
+.menu-itm
+{
+ color:#FFFFFF; 
+ vertical-align:middle;
+ height:52px; 
+ font-size:110%;
+ letter-spacing:0.1em;
+}
+.menu-itm a
+{
+ color:#000000; 
+}
+
+
+.menu-itm a:hover
+{
+ color:#FF1234; 
+ text-decoration:none;
+}
+
+.fond-kraft
+{
+/*   background-color:#7e735d!important; */
+    background-image:url('../css/img/fond_kraft.png')!important;
+  height:100%;
+
+}
+
+.fancybox-skin 
+{
+  background-image:url('../css/img/fond_kraft.png')!important;
+}
+
+.green-highlight
+{
+  background-color:#359d02; 
+  color:#ffffff; 
+  font-weight:bold; 
+  font-size:16px;
+  margin:5px; 
+  padding:5px;
+}
+
+.green-highlight a
+{
+ color:#ffffff;
+}
+
+#menu-filt-rech
+{
+  position :absolute;
+  width: 50%;
+  min-width:350px;
+  height: 100%;
+  background-color:#ffffff;
+  display:none;
+  z-index:5000;
+  color:#000000;
+  overflow:auto;
+  padding : 10px;
+}
+
+.btn-menu-filtre
+{
+ position:fixed;
+ top:30%;
+/*  right:-134px; */
+ width:60px;
+ color:#ffffff;
+ font-weight:bold;
+ z-index:500;
+ background-color:#333333;
+ padding-top:0px;
+ padding-bottom:0px;  
+ padding-left:7px;
+ padding-right:5px;
+}
+
+.alert
+{
+ margin-bottom:0px; 
+}
+
+.over
+{
+ z-index:1000000000000; 
+}
+div.cookie_policy_msg{width:100%;background:#111;}
+div.cookie_policy_msg>div{max-width:1200px;margin:0 auto;color:#999;padding:10px}
+div.cookie_policy_msg>div>a:first-child{color:#fff;display:inline-block;margin-left:10px}
+div.cookie_policy_msg>div>a:last-child{display:inline-block;margin-left:20px;height:28px;width:32px;color:#fff}
+
+a.fill-div
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+footer {
+  position: absolute; 
+  bottom:-155px;
+  width:100%;
+}
+
+.wrap
+{
+  min-height:100%;
+  position: relative;
+  padding-top:50px;
+}
+
+.wrap-index
+{
+  min-height:100%;
+  position: relative;
+}
+
+main
+{
+  position : relative;
+
+}
+
+.nopadding
+{
+ padding:0 !important; 
+}
+
+.nopadding-left-right
+{
+ padding-left:0px;
+padding-right:0px; 
+}
+
+.padding-left-10
+{
+ padding-left:20px; 
+}
+
+.nomargin
+{
+ margin:0 !important; 
+}
+
+.margin3pc
+{
+ margin-left:2%;
+margin-right:2%;
+display:inline;
+}
+.minus50
+{
+position:relative;
+top:-50px;
+}
+
+.minus35
+{
+position:relative;
+top:-35px;
+}
+
+.bottom-margin
+{
+ margin-top:155px; 
+}
+
+.bgcachelg
+{
+ background-image:url('../img/cache.png');
+ background-position:center center;
+ height:50px;
+
+}
+
+.bgcachemd
+{
+   background-image:url('../img/cache-md.png');
+ background-position:center center;
+ height:35px;
+}
+
+.top-container
+{
+ padding:0px; 
+
+}
+
+.top-inner
+{
+ position:fixed; 
+ top:0; 
+ background-image:url('../img/fond/fond_top.jpg'); 
+ height:52px;
+ z-index:10000; 
+ width:100%;
+}
+
+.top-inner a
+{
+ color:white; 
+}
+
+.top-inner-index
+{
+ top:0; 
+ background-image:url('../img/fond/fond_top.jpg'); 
+ height:52px;
+ z-index:9999; 
+ width:100%;
+ margin:0px;
+ padding:0px;
+}
+
+.top-inner-index a
+{
+   color:white; 
+   padding:0px;
+   margin:0px;
+}
+
+
+.btn-trpr-white
+{
+ border:1px solid white; 
+ border-radius:3px;
+ padding:3px;
+ padding-top:5px;
+ padding-bottom:5px;
+ margin-right:10px;
+
+}
+
+.btn-trpr-white2
+{
+ border:1px solid white; 
+ border-radius:3px;
+ padding:3px;
+ padding-top:5px;
+ padding-bottom:5px;
+ margin-right:10px;
+
+}
+
+.btn-trpr-white2:hover
+{
+  border:1px solid #999999;
+  color:#999999;
+}
+
+.small-chevron
+{
+ font-size:80%; 
+}
+
+.btn-trpr-white:hover
+{
+  border:1px solid #FF1234;
+}
+
+.anchor
+{
+  display: block;
+  position: relative;
+  top: -20px;
+  visibility: hidden; 
+}
+
+.padding20
+{
+ padding-left:3%;
+ padding-right:3%;
+}
+
+.reval a
+{
+  color:#000000;
+}
+
+.search-in-product
+{
+
+  width:399px;
+  background-color:#eeeeee;
+  padding:10px;
+  margin:0px;
+  right:0px;
+
+}
+
+
+.bgcommentsection
+{
+ background-color:#efefef; 
+}
+
+.bgcomment
+{
+ background-color:#fbfbfb;
+border:1px solid #cccccc; 
+padding:5px;
+}
+
+.bgcomment:hover
+{
+   background-color:#ffffff;
+}
+
+.background
+{
+ width:100%;
+height:160px;
+position:absolute;
+-webkit-transition: all 0.3s; /* Safari */
+transition: all 0.3s;
+
+}
+
+.background:hover
+{
+background-image:url("../img/fond/fond_translucide.png");
+
+}
+
+.x
+{
+ width:100%;
+height:160px;
+position:absolute;
+color:#ffffff;
+display:none;
+padding:5px;
+
+}
+
+.background:hover .x
+{
+ display:block ;
+
+}
+
+.bgvideo
+{
+ background-image:url("../img/fond/fond_video.png"); 
+ background-position:center;
+ background-repeat:no-repeat;
+ width:300px;
+ height:200px;;
+ position:absolute;
+ display:block;
+}
+
+.bgvideo:hover
+{
+ background-image:url("../img/fond/fond_video2.png"); 
+}
+
+.whitebg
+{
+background-color:#ffffff;
+}
+
+.hover-round
+{
+  border-radius:10px;
+  border:1px solid #f5f5f5;
+}
+
+.hover-round:hover
+{
+  opacity:0.7;
+}

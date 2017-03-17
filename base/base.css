@@ -1,0 +1,56 @@
+/* line 1, ../css/base/base.scss */
+.img-min {
+  max-height: 130px;
+  max-width: 130px;
+}
+
+/* line 5, ../css/base/base.scss */
+.cb {
+  clear: both;
+}
+
+/* line 7, ../css/base/base.scss */
+mini {
+  font-size: 10px;
+  font-weight: normal;
+  font-family: Arial, sans serif;
+}
+
+/* line 13, ../css/base/base.scss */
+minibas {
+  font-size: 10px;
+  font-weight: normal;
+  font-family: Arial, sans serif;
+  line-height: 15px;
+  position: relative;
+  top: 5px;
+}
+
+/* line 22, ../css/base/base.scss */
+x1 {
+  font-size: 23px;
+  font-family: "Arial", sans serif;
+  color: #47433b;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+/* line 30, ../css/base/base.scss */
+x2 {
+  font-size: 17px;
+  font-family: "Arial", sans serif;
+  color: #47433b;
+  line-height: 0.7;
+  margin-top: -5px;
+}
+
+/* line 39, ../css/base/base.scss */
+a {
+  color: #777777;
+}
+
+/* line 44, ../css/base/base.scss */
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}

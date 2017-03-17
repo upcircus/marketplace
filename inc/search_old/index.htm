@@ -1,0 +1,30 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#search_box").keyup(function(){var search_string = $("#search_box").val();
+
+if(search_string == ''){$("#searchres").html('');}
+else{postdata = {'string' : search_string}
+$.post("check.php",postdata,function(data){ $("#searchres").html(data); });}});});
+function fillme(name){$("#search_box").val(name);$("#searchres").html('');}
+</script>
+
+</head>
+<body>
+
+<form method="post" action="affiche_recherche.php">
+  <input type="text" name="search" id="search_box" autocomplete="off" placeholder="exemple : carton, bouteille..." size="50"/>
+  <input type="submit" name="go" value="Rechercher"></code><br/>
+  <input type="radio" name="recherche" value="recycler" id="recycler"/><label for="recycler">A recycler</label>
+  <input type="radio" name="recherche" value="revaloriser" id="revaloriser"/><label for="revaloriser">A revaloriser</label>
+  <input type="radio" name="recherche" value="both" id="both" checked/><label for="both">Les deux</label>
+
+<div id="searchres" class="searchres"></div>
+</form>
+
+</body>
+</html>

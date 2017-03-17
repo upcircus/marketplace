@@ -1,0 +1,302 @@
+.revalorisation{
+ height: 650px;
+ background-image:url("css/img/fond-revalorisation.png");
+ background-color:#FFF; 
+ background-repeat:repeat-x;
+  margin:0px;
+  padding:0px;
+}
+
+.contenu-revalorisation{
+  height:537px; 
+  margin-top:0px;
+  background-color:#f0eeeb;
+    border:1px #000;
+  border-bottom-style:solid;
+  margin:0px;
+  padding:0px;
+}
+
+.titre-revalorisation{
+  height:75px;
+  margin-top:38px;
+  
+}
+
+.revaloriser-all-cols{
+ width:80%;
+ height:100%;
+ margin:0 auto;
+  min-width:1010px;
+  max-width:1300px;
+ 
+}
+
+.revaloriser-col1{
+  width:33%;
+  height:100%;
+  background-color:#f0eeeb;
+  float:left;
+  text-align: center;
+  padding-top:10px;
+}
+.revaloriser-col2{
+  width:34%;
+  height:100%;
+  background-color:#e7e4dd;
+  float:left;
+  text-align: center;
+  padding-top:10px;
+}
+.revaloriser-col3{
+  width:33%;
+  height:100%;
+  background-color:#f0eeeb;
+  float:left;
+  text-align: center;
+  padding-top:10px;
+}
+
+.reval-art{
+ width:100%;
+ height:150px;  
+ vertical-align:middle;
+ padding-top:10px;
+ -webkit-transition: 0.4s; /* For Safari 3.1 to 6.0 */
+ transition: 0.4s;
+}
+
+.reval-art:hover{
+  background-color:rgba(0,0,0,0.2);
+  opacity:0.9;
+  
+  
+}
+.reval-art1{
+  width:140px;
+  height:140px;
+  float:left;
+  padding:5px;
+}
+
+.reval-art2{
+  text-align:left;
+  line-height:15px;
+}
+
+.ti-art{
+  font-size:17px;
+  
+}
+
+.attr-art{
+  font-size:12px;
+  
+}
+
+
+.div_arrondi1{
+
+border-radius:25px;
+overflow:hidden;
+width:200px;
+height:300px;
+background-color:#000;
+  
+}
+.div_arrondi2_tuto{
+
+border-radius:15px;
+overflow:hidden;
+height:250px;
+background-position: center;
+background-color:#FFF;
+background-repeat:no-repeat;
+margin:5px;
+min-height:250px;
+display:inline-block;
+
+}
+
+.div_arrondi2_idee{
+
+border-radius:15px;
+overflow:hidden;
+width:200px;
+background-position: center;
+background-color:#FFF;
+background-repeat:no-repeat;
+margin:5px;
+float:left;
+display:inline-block;
+}
+
+.div_arrondi2_recyclage{
+
+border-radius:15px;
+overflow:hidden;
+width:200px;
+background-position: center;
+background-color:#FFF;
+background-repeat:no-repeat;
+margin:5px;
+float:left;
+display:inline-block;
+}
+
+
+.surcouche{
+
+ height:273px;
+ width:100%;
+ border-radius:15px;
+ vertical-align:middle;
+ -webkit-transition: 0.4s; /* For Safari 3.1 to 6.0 */
+ transition: 0.4s;
+background-color:rgba(0,0,0,0);
+opacity:0;
+padding:10px;
+margin:0px auto;
+ display:inline-block;
+ margin-top:-40px;
+}
+
+
+.surcouche:hover{
+background-color:rgba(0,0,0,0.4);  
+opacity:1;
+
+}
+
+.surcouche ins{
+opacity:0;
+text-decoration:none;
+ -webkit-transition: 0.4s; /* For Safari 3.1 to 6.0 */
+ transition: 0.4s;
+ margin:0px auto;
+
+
+
+}
+
+.surcouche:hover ins{
+opacity:1;
+
+}
+
+
+
+.surcouche-content-titre{
+ margin-top : -5px;
+ height:60px;
+ width:100%;
+ overflow:hidden;
+ color:#fff;
+font-weight:bold;
+font-size:1.2em;
+text-decoration:none;
+text-align:center;
+margin:0px auto;
+
+
+}
+
+.surcouche-content-mp{
+ margin-top : 0px;
+
+ height:100px;
+ width:100%;
+ overflow:hidden;
+ color:#fff;
+font-size:1em;
+text-align:center;
+margin:0px auto;
+}
+
+
+.surcouche-content-rates{
+color:#FFF;
+ height:50px;
+ width:100%;
+ margin:auto;
+ margin-top : -20px;
+ text-align:center;
+
+}
+
+.surcouche-content-bottom{
+
+  bottom : 0;
+color:#FFF;
+ height:70px;
+ width:100%;
+ margin-top:20px;
+}
+
+.surcouche-bottomleft{
+  width:33%;
+  height:100%;
+color:#FFF;
+  float:left;
+}
+
+.surcouche-voirtout{
+  width:34%;
+  min-width:35px;
+  height:100%;
+color:#FFF;
+  float:left;
+  text-align:center;
+  
+}
+
+.btn-white{
+ color:#FFF;
+border:solid 1px #FFF; 
+}
+
+.repartition{
+display:block;/* insecticide */
+  text-align:justify;/* prepare alternative type: flex-justify */
+  padding-left:15px;
+  padding-right:15px;
+  margin-left:15px;
+  margin-right:15px;
+  margin-bottom:25px;
+}
+
+
+
+.repartition:after {
+  display:inline-block;
+}
+
+.encadre_type
+{
+  position:relative;
+  top:1px;
+  left:0px;
+ border:solid 1px #555555;
+font-size:9px;
+text-transform: uppercase;
+background-color:#FFFFFF;
+display:inline-block;
+opacity:0.8;
+}
+
+
+
+coeur
+{
+ opacity:0; 
+ position:relative;
+ display:block;
+top:204px;
+text-align:center;
+height:80px;  
+}
+
+.surcouche:hover coeur {
+opacity:1;
+
+}

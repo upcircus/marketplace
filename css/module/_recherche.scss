@@ -1,0 +1,67 @@
+.recherche{
+    background-color:#dbd5ca;
+    border:2px #000;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    height:318px;
+    
+    margin:auto;
+}
+
+.champ{
+    background-color:#e7e4de;
+    border:1px #c2bcaf;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    height:84px;
+    margin-top:42px;
+    margin:auto;
+    width:100%;
+    
+}
+
+.recherche-form{
+padding-top:15px;
+margin:auto;
+width:1010px;
+text-align:center;
+}
+
+.info-recherche{
+  height:190px;
+  width:1010px;
+  margin:auto;
+  text-align:center;
+}
+
+.info-recherche-1{
+  height:190px;
+  width:336px;
+  background-image:url('css/img/fond-inf-recherche-1.png');
+  background-repeat:no-repeat;
+  background-position:68px -20px;
+  padding:10px;
+  float:left;
+    
+}
+
+.info-recherche-2{
+  height:190px;
+  width:336px;
+  background-image:url('css/img/fond-inf-recherche-2.png');
+  background-repeat:no-repeat;
+  background-position:68px -20px;
+  padding:10px;
+  float:left;
+  
+}
+
+.info-recherche-3{
+  height:190px;
+  width:320px;
+  background-image:url('css/img/fond-inf-recherche-3.png');
+  background-repeat:no-repeat;
+  background-position:68px -20px;
+  padding:10px;
+  float:right;
+}

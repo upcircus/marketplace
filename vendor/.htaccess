@@ -1,0 +1,11 @@
+<IfModule mod_php5.c>
+php_value memory_limit 40M
+php_value post_max_size 40M
+php_value upload_max_filesize 40M
+</IfModule>
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule ^Recyclerie_des_ateliers$ createur.php?id=44 [L,NC]
+RewriteRule ^LesJambesDeLaJoconde$ createur.php?id=45 [L,NC]
+

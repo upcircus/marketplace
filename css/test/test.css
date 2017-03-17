@@ -1,0 +1,37 @@
+
+div#un
+{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    padding: 50px;
+    border: solid 2px #9040C0;
+    cursor: default;
+}
+
+div#un:hover
+{
+    background-color: #E0E0E0;
+    border: solid 2px #30B0A0;
+}
+
+div#deux
+{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    padding: 30px;
+    border: dashed 1px #005040;
+    background-color: #C0C0C0;
+    font-size: 20px;
+}
+
+div#deux
+{
+    display: none;
+}
+
+div#un:hover + div#deux
+{
+    display: block;
+}

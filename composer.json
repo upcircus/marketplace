@@ -1,0 +1,13 @@
+{
+    "name": "upcircus/fbconnect",
+    "authors": [
+        {
+            "name": "Aymeric",
+            "email": "aymeric@upcircus.fr"
+        }
+    ],
+    "require" : 
+	{
+	    "facebook/php-sdk-v4" : "~5.0"
+	}
+}

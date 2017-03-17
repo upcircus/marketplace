@@ -1,0 +1,32 @@
+<script type="text/javascript">					
+
+$(document).ready(function(){
+	
+    $("#t1").hide();
+     
+    // faire apparaitre #text1
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 650 ) {
+                $('#t1').fadeIn(300);
+            } else {
+                $('#t1').fadeOut(300);
+            }
+    });
+	
+	    $("#b1").hide();
+     
+    // faire apparaitre bulle1
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 400 ) {
+                $('#b1').fadeIn(500);
+            } else {
+                $('#b1').fadeOut(500);
+            }
+			
+        });
+    });
+});
+
+</script>

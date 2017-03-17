@@ -1,0 +1,281 @@
+
+
+.header{
+ height: 98px;
+ background-image:url("css/img/menu-fond.png");
+ background-color:#b8ae9b; 
+ background-repeat:repeat-x;
+
+ border:2px #000;
+ border-top-style:solid;
+ border-bottom-style:solid;
+margin:auto;
+
+ position: relative;
+
+}
+
+.header-logo{
+  background-image:url("img/menu-logo-upcircus.png");
+  display:block;
+  float:left;
+  margin-top:-2px;
+  //margin-top:7px;
+  margin-left:10%;
+  opacity:1;
+
+  
+
+  
+}
+.header-logo:hover{
+  background-image:url("img/menu-logo-upcircus.png");
+  display:block;
+  float:left;
+  margin-top:-2px;
+    //margin-top:7px;
+  margin-left:10%;
+  opacity:1;
+}
+
+//menu
+
+.menu{
+ color:#2e2c29;
+ font-size:18px;
+ font-weight:bold;
+ height:52px;
+ 
+ //
+ width:85%;
+ min-width:1080px;
+ margin:0 auto;
+ //ne pas supprimer le margin top
+ margin-top:9px;
+
+ }
+ 
+  .menu:hover{
+ color:#2e2c29;
+ font-size:18px;
+ font-weight:bold;
+ height:52px;
+ margin-top:9px;
+ }
+ 
+.menu-item{
+  height:52px;
+  float:left;
+  word-wrap:break-word;
+  display:block;
+  
+  
+  
+}
+
+
+.header-comptehome{
+display:block;
+  height:52px;
+  float:right;
+  margin-right:5px;
+  font-size:13px;
+  max-width:300px;
+  
+}
+
+.header-comptehome-length{
+  word-wrap:break-word;
+  display:inline-block;
+
+}
+
+.menu-item-height{
+  padding-top:14px;
+     -webkit-transition: 0.4s; /* For Safari 3.1 to 6.0 */
+ transition: 0.4s;
+
+}
+
+.menu-bg{
+
+  background-color: rgba(888,888,888, 0);
+  width:100%;
+  height:54px; 
+  padding-right:15px;
+  padding-left:15px;
+  display:block;
+  margin-top:0px;
+  margin-right:5px;
+   -webkit-transition: 0.4s; /* For Safari 3.1 to 6.0 */
+ transition: 0.4s;
+ 
+}
+
+.menu-bg:hover{
+
+  background-color: rgba(111,111,111,0.2);
+  width:100%;
+  height:54px; 
+  padding-right:15px;
+  padding-left:15px;
+  display:block;
+  margin-top:0px;
+}
+
+.menu-bg2{
+
+  background-color: rgba(0, 0, 0, 0);
+  width:100%;
+  height:54px; 
+  padding-right:10px;
+  padding-left:10px;
+  display:block;
+  margin-top:0px;
+  margin-right:5px;
+   -webkit-transition: 0.4s; /* For Safari 3.1 to 6.0 */
+ transition: 0.4s;
+}
+
+.menu-bg2:hover{
+  
+  background-color: rgba(111,111,111,0.2);
+  width:100%;
+  height:54px; 
+  padding-right:10px;
+  padding-left:10px;
+  display:block;
+  margin-top:0px;
+}
+
+
+.sep{
+  float:left;
+}
+
+.sousmenu{
+  color:#FFF;
+  font-size:12px;  
+  margin:0 auto;
+  margin-top:4px;
+  width:10;
+  height:34px;
+  width:85%;
+ min-width:1080px;
+overflow:visible;
+
+}
+
+.sousmenu-contain
+{
+  position:absolute;
+  width:100%;
+  margin:0 auto; 
+  display:block;
+  margin-left:280px;
+  @include clearfix;
+
+}
+
+.sousmenu-item{
+  padding-left:33px;
+  vertical-align:middle;
+}
+
+
+ul.nav a {
+  height:52px;
+    overflow:visible;
+    vertical-align:middle;
+}
+
+ul.nav a:hover { 
+  background-color: rgba(0, 0, 0, .2) !important; 
+  color:#000;
+  vertical-align:middle;
+
+}
+
+ul.nav a:focus { 
+  background-color: rgba(0, 0, 0, .2) !important; 
+  color:#000;
+  vertical-align:middle;
+}
+ul.nav a:active { 
+  background-color: rgba(0, 0, 0, .2) !important; 
+  color:#000;
+  vertical-align:middle;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+
+}
+
+li.nav a:hover{
+  background-color: rgba(0, 0, 0, .9) !important; 
+  vertical-align:middle;
+}
+
+.navbar .nav > li {
+z-index: 10000;
+vertical-align:middle;
+
+}
+
+.dropdown-menu{
+  background-color:rgba(136, 125, 105, 0.9);
+  border: 2px solid #000;
+  color:#FFFFFF;
+  vertical-align:middle;
+}
+
+.dropdown-menu > li{
+ height:20px; 
+ margin:0px;
+   margin-left:0px;
+ margin-right:0px;
+  margin-bottom:5px;
+  padding-bottom:5px;
+  color:#FFFFFF;
+}
+
+
+.dropdown-menu > a{
+ height:20px; 
+  margin:10px;
+  margin-left:0px;
+ margin-right:0px;
+ //margin-bottom:10px;
+  //padding-bottom:5px;
+color:#FFFFFF;
+  
+}
+
+
+ul.dropdown-menu > li > a {
+   height:20px; 
+   margin-bottom:4px;
+   z-index:100000000;
+     overflow:visible;
+     color:#FFFFFF;
+     //padding:20px;
+     //padding-top:-20px;
+     //margin-top:20px;
+     //margin-bottom:20px;
+     vertical-align:middle;
+     
+}
+
+ul.dropdown-menu > li > a:hover {
+  
+}
+
+.selectpicker{
+border:1px solid #cccccc;  
+}
+
+.alert{
+ margin-bottom:0px;
+ 
+}
